@@ -1,0 +1,98 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 33%;
+    max-width: 600px;
+    max-height: 430px;
+    color: white;
+    /* border: 1px solid ; */
+    padding: 20px;
+    border-radius: 1rem;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+
+
+}
+h1{
+    text-align: center;
+}
+
+#blog-list {
+    width: 65%;
+    max-width: 900px;
+    color: white;
+    /* border: 1px solid ; */
+    padding: 20px;
+    border-radius: 1rem;
+    background: rgb(83, 54, 54) ;
+}
+
+form {
+    margin: 2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: .5rem;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  .anchorBtn {
+    height: 2rem;
+    display: flex;
+    float: right;
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color:  #555;
+  }
